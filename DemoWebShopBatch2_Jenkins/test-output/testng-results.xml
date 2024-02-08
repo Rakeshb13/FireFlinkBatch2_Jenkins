@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Digital Downloads Page Displayed..]]>
+    </line>
+    <line>
+      <![CDATA[Shopping Cart Page Displayed..]]>
+    </line>
+    <line>
+      <![CDATA[AddToCartTestCase Pass...]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-02-08T16:31:37 IST" name="Default suite" finished-at="2024-02-08T16:31:48 IST" duration-ms="11038">
+    <groups>
+    </groups>
+    <test started-at="2024-02-08T16:31:37 IST" name="Default test" finished-at="2024-02-08T16:31:48 IST" duration-ms="11038">
+      <class name="org.automation.testScripts.AddToCartTestCase">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:org.automation.testScripts.AddToCartTestCase@52bf72b5]" started-at="2024-02-08T16:31:37 IST" name="beforeSuite" finished-at="2024-02-08T16:31:37 IST" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:org.automation.testScripts.AddToCartTestCase@52bf72b5]" started-at="2024-02-08T16:31:37 IST" name="launchBrowser" finished-at="2024-02-08T16:31:42 IST" duration-ms="4586" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="performLogin(java.lang.reflect.Method)[pri:0, instance:org.automation.testScripts.AddToCartTestCase@52bf72b5]" started-at="2024-02-08T16:31:42 IST" name="performLogin" finished-at="2024-02-08T16:31:44 IST" duration-ms="1464" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.automation.testScripts.AddToCartTestCase.addToCartTestCase() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performLogin -->
+        <test-method signature="addToCartTestCase()[pri:0, instance:org.automation.testScripts.AddToCartTestCase@52bf72b5]" started-at="2024-02-08T16:31:44 IST" name="addToCartTestCase" finished-at="2024-02-08T16:31:48 IST" duration-ms="4051" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Digital Downloads Page Displayed..]]>
+            </line>
+            <line>
+              <![CDATA[Shopping Cart Page Displayed..]]>
+            </line>
+            <line>
+              <![CDATA[AddToCartTestCase Pass...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addToCartTestCase -->
+        <test-method is-config="true" signature="perfromLogout()[pri:0, instance:org.automation.testScripts.AddToCartTestCase@52bf72b5]" started-at="2024-02-08T16:31:48 IST" name="perfromLogout" finished-at="2024-02-08T16:31:48 IST" duration-ms="814" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- perfromLogout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.automation.testScripts.AddToCartTestCase@52bf72b5]" started-at="2024-02-08T16:31:48 IST" name="closeBrowser" finished-at="2024-02-08T16:31:48 IST" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:org.automation.testScripts.AddToCartTestCase@52bf72b5]" started-at="2024-02-08T16:31:49 IST" name="afterSuite" finished-at="2024-02-08T16:31:49 IST" duration-ms="308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- org.automation.testScripts.AddToCartTestCase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
